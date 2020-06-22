@@ -1,0 +1,42 @@
+Instalar nodejs
+instalar lite-server
+
+
+1) Instala NodeJs
+
+2) Instala NPM
+
+3) Crea un proyecto de NodeJs utilizando los comandos vistos de npm.
+
+4) Vincula el proyecto de NodeJS al repositorio creado previamente
+
+5) Crea el archivo .gitignore para evitar hacer seguimiento de los cambios en el directorio node_modules
+
+6) Sube los cambios al repositorio utilizando los comandos de GIT y revisa los logs. 
+
+Guía práctica de Bootstrap
+Imitando lo que viste en los recientes tutoriales, realiza los pasos a continuación. Recuerda que, para comprobar cuánto has aprendido, al final de cada módulo otros participantes medirán tu avance.
+
+1) Utilizando NPM, instala la librería de Bootstrap
+
+2) Utilizando NPM, instala la librería de Jquery y Popper
+
+3) Luego de concluir los puntos anteriores, revisa en el archivo package.json la sección de dependencias para asegurarte que veas todo correctamente instalado
+
+4) Utilizando NPM, instala la librería de lite-server
+
+5) Configura sobre el package.json el script dev que debe inicializar el server lite-server.
+
+a. Para chequear que lo hayas hecho correctamente, ejecuta en la consola el comando npm run dev y debería inicializar el servidor. Caso contrario, revisa los videos tutoriales donde lo configuro.
+
+6) Crea una página html básica, puedes copiar la de los videos tutoriales, y darle al archivo el nombre index.html para que sea la página de inicio del proyecto.
+
+7) Ejecuta el comando npm run dev y asegúrate de ver la página que acabas de crear.
+
+8) Prueba realizar algún cambio en el html y deberías ver cómo se actualiza sola la web con el cambio que acabas de realizar.
+
+9) Incluye sobre la página las referencias css y js a bootstrap, jquery y popper utilizando referencias a los archivos correspondientes de la carpeta node_modules
+
+10) Asegúrate de que tengas todo bien configurado antes de pasar al siguiente punto. Puedes utilizar las herramientas para desarrolladores que ofrecen los browsers y observar si hay algún mensaje de error que nos estén indicando algún problema.
+
+11) Sube los cambios al repositorio utilizando los comandos de GIT y revisa los logs. 
