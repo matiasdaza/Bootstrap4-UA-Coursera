@@ -1,0 +1,22 @@
+.jumbotron {
+	background-color: yellow;
+	color: black;
+}
+
+
+footer {
+	padding: 10px 10px 0 10px;
+	background-color: yellow;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+.card-pokemon {
+	flex: 1 150px; /*El 1 representa que la propiedad flex grow se mantiene intacta, si se le pone 2 quiere decir que cada uno de los items puede usar hasta el doble de ancho. El otro ocupa la propiedad flex bases, especifica el ancho definido, esto reemplaza el col-sm-3 */
+	padding: 2px 5px 2px 5px;
+	margin: 5px;
+}
+
+.btn-moreinfo {
+	width: 100%;
+}
