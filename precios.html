@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
 
     <title>Hello, world!</title>
   </head>
@@ -23,8 +24,8 @@
   	<div class="collapse navbar-collapse" id="navbarSupportedContent">
   		<ul class="navbar-nav mr-auto">
   			<li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-  			<li class="nav-item active"><a class="nav-link" href="#">Nosotros</a></li>
-  			<li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
+  			<li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
+  			<li class="nav-item active"><a class="nav-link" href="#">Precios</a></li>
   			<li class="nav-item"><a class="nav-link" href="#">Términos y condiciones</a></li>
   			<li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
   		</ul>
@@ -33,17 +34,76 @@
 
   <body>
     <div class="jumbotron">
-	  <h1 class="display-4">About</h1>
+	  <h1 class="display-4">Precios</h1>
 	</div>
 
 	<div class="container">
 		<nav aria-label="breadcrumb">
 			<ol class="breadcrumb">
-				<li class="breadcrumb-item" aria-current="page"><a href="./inde">Home</a></li>
-				<li class="breadcrumb-item active" aria-current="page">Nosotros</li>
+				<li class="breadcrumb-item" aria-current="page"><a href="./index.html">Home</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Precios</li>
 			</ol>
 		</nav>
-		<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio perferendis veniam accusamus fugiat qui in assumenda, quibusdam minus accusantium voluptates recusandae reiciendis cumque repellendus blanditiis, quis dolore nostrum voluptas voluptatum?</span>
+
+		<div class="table-responsive">	
+			<table class="table table-striped">	
+				<thead class="thead-dark">
+					<th>Cantidad</th>
+					<th>Pokeballs</th>
+					<th>Superballs</th>	
+					<th>Ultraballs</th>
+					<th>Safariballs</th>
+					<th>Superballs</th>	
+					<th>Ultraballs</th>
+					<th>Safariballs</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td><span class="oi oi-caret-right"></span> x1</td>
+						<td>100 pc</td>
+						<td>200 pc</td>
+						<td>300 pc</td>
+						<td>400 pc</td>
+						<td>100 pc</td>
+						<td>200 pc</td>
+						<td>300 pc</td>
+					</tr>
+					<tr>
+						<td><span class="oi oi-caret-right"></span> x3</td>
+						<td>500 pc</td>
+						<td>600 pc</td>
+						<td>700 pc</td>
+						<td>800 pc</td>
+						<td>600 pc</td>
+						<td>700 pc</td>
+						<td>800 pc</td>
+					</tr>
+					<tr>
+						<td><span class="oi oi-caret-right"></span> x5</td>
+						<td>900 pc</td>
+						<td>1000 pc</td>
+						<td>1100 pc</td>
+						<td>1200 pc</td>
+						<td>1000 pc</td>
+						<td>1100 pc</td>
+						<td>1200 pc</td>
+					</tr>
+					<tr>
+						<td><span class="oi oi-caret-right"></span> x10</td>
+						<td>1300 pc</td>
+						<td>1400 pc</td>
+						<td>1500 pc</td>
+						<td>1600 pc</td>
+						<td>1400 pc</td>
+						<td>1500 pc</td>
+						<td>1600 pc</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
+		
+
 	</div>				
 	<footer>
 		<div class="row">
