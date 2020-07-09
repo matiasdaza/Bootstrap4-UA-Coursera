@@ -12,13 +12,13 @@ footer {
 }
 
 .card-pokemon {
-	flex: 1 150px; /*El 1 representa que la propiedad flex grow se mantiene intacta, si se le pone 2 quiere decir que cada uno de los items puede usar hasta el doble de ancho. El otro ocupa la propiedad flex bases, especifica el ancho definido, esto reemplaza el col-sm-3 */
-	padding: 2px 5px 2px 5px;
-	margin: 5px;
+	flex: 1 200px; /*El 1 representa que la propiedad flex grow se mantiene intacta, si se le pone 2 quiere decir que cada uno de los items puede usar hasta el doble de ancho. El otro ocupa la propiedad flex bases, especifica el ancho definido, esto reemplaza el col-sm-3 */
+	margin: 10px;
 }
 
 .btn-moreinfo {
 	width: 100%;
+	border-radius: 	0px;
 }
 
 .footer-adress-icon{
