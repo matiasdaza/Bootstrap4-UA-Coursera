@@ -1,3 +1,14 @@
+Levantar nodejs
+
+instalar nodejs
+npm -v (saber que versión se instaló)
+npm init (para comenzar un proyecto y crear el package.json)
+npm install lite-server
+
+npm run dev
+
+----
+
 Correr server: npm run dev
 
 Instalar nodejs
@@ -58,3 +69,4 @@ Guía práctica de grillas
 5) Dentro del container y separado de los párrafos previos (repasa los videos tutoriales para este punto), agrega una lista de hoteles o productos que incluyan un título, descripción y un botón. Esta vez utilizando el sistema de grillas con filas y columnas. ¡Asegúrate de que todo sea reponsive!
 
 6) Sube los cambios al repositorio utilizando los comandos de GIT y revisa los log
+
