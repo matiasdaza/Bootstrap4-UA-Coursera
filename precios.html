@@ -45,66 +45,80 @@
 			</ol>
 		</nav>
 
-		<div class="table-responsive">	
-			<table class="table table-striped">	
-				<thead class="thead-dark">
-					<th>Cantidad</th>
-					<th>Pokeballs</th>
-					<th>Superballs</th>	
-					<th>Ultraballs</th>
-					<th>Safariballs</th>
-					<th>Superballs</th>	
-					<th>Ultraballs</th>
-					<th>Safariballs</th>
-				</thead>
-				<tbody>
-					<tr>
-						<td><span class="oi oi-caret-right"></span> x1</td>
-						<td>100 pc</td>
-						<td>200 pc</td>
-						<td>300 pc</td>
-						<td>400 pc</td>
-						<td>100 pc</td>
-						<td>200 pc</td>
-						<td>300 pc</td>
-					</tr>
-					<tr>
-						<td><span class="oi oi-caret-right"></span> x3</td>
-						<td>500 pc</td>
-						<td>600 pc</td>
-						<td>700 pc</td>
-						<td>800 pc</td>
-						<td>600 pc</td>
-						<td>700 pc</td>
-						<td>800 pc</td>
-					</tr>
-					<tr>
-						<td><span class="oi oi-caret-right"></span> x5</td>
-						<td>900 pc</td>
-						<td>1000 pc</td>
-						<td>1100 pc</td>
-						<td>1200 pc</td>
-						<td>1000 pc</td>
-						<td>1100 pc</td>
-						<td>1200 pc</td>
-					</tr>
-					<tr>
-						<td><span class="oi oi-caret-right"></span> x10</td>
-						<td>1300 pc</td>
-						<td>1400 pc</td>
-						<td>1500 pc</td>
-						<td>1600 pc</td>
-						<td>1400 pc</td>
-						<td>1500 pc</td>
-						<td>1600 pc</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
+		<ul class="nav nav-tabs" id="myTab" role="tablist"> <!-- En vez de tab en la class de ul y en data-toggle de a, puede ir pill -->
+			<li lass="nav-item">
+				<a class="nav-link active" id="compara-tab" data-toggle="tab"  href="#compara" role="tab" aria-controls="compara" aria-selected="true">Compara</a>
+			</li>
+			<li lass="nav-item">
+				<a class="nav-link" id="tarjetas-tab" data-toggle="tab"  href="#tarjetas" role="tab" aria-controls="tarjetas" aria-selected="true">Tarjetas</a>
+			</li>
+			
+		</ul>
 
-		<div class="d-flex justify-content-center">
+		<div class="tab-content" id="myTabContent">
+			<div class="tab-pane fade show active" id="compara" roles="tabpanel" aria-labelladby="compara-tab">
+				<div class="table-responsive">	
+					<table class="table table-striped">	
+						<thead class="thead-dark">
+							<th>Cantidad</th>
+							<th>Pokeballs</th>
+							<th>Superballs</th>	
+							<th>Ultraballs</th>
+							<th>Safariballs</th>
+							<th>Superballs</th>	
+							<th>Ultraballs</th>
+							<th>Safariballs</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td><span class="oi oi-caret-right"></span> x1</td>
+								<td>100 pc</td>
+								<td>200 pc</td>
+								<td>300 pc</td>
+								<td>400 pc</td>
+								<td>100 pc</td>
+								<td>200 pc</td>
+								<td>300 pc</td>
+							</tr>
+							<tr>
+								<td><span class="oi oi-caret-right"></span> x3</td>
+								<td>500 pc</td>
+								<td>600 pc</td>
+								<td>700 pc</td>
+								<td>800 pc</td>
+								<td>600 pc</td>
+								<td>700 pc</td>
+								<td>800 pc</td>
+							</tr>
+							<tr>
+								<td><span class="oi oi-caret-right"></span> x5</td>
+								<td>900 pc</td>
+								<td>1000 pc</td>
+								<td>1100 pc</td>
+								<td>1200 pc</td>
+								<td>1000 pc</td>
+								<td>1100 pc</td>
+								<td>1200 pc</td>
+							</tr>
+							<tr>
+								<td><span class="oi oi-caret-right"></span> x10</td>
+								<td>1300 pc</td>
+								<td>1400 pc</td>
+								<td>1500 pc</td>
+								<td>1600 pc</td>
+								<td>1400 pc</td>
+								<td>1500 pc</td>
+								<td>1600 pc</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+			<div class="tab-pane fade show" id="tarjetas" roles="tabpanel" aria-labelladby="tarjetas-tab">
+				<div class="d-flex justify-content-center">
 				<div class="card" style="width: 18rem">
-						<div class="card-header">	
+						<div class="card-header thead-dark">	
 								Tarjetas Aceptadas
 						</div>
 						<ul class="list-group list-group-flush">	
@@ -114,6 +128,14 @@
 						</ul>	
 				</div>
 		</div>
+			</div>
+		</div>
+
+
+
+		
+
+		
 		
 		
 
