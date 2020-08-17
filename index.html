@@ -76,7 +76,7 @@
 		<div class="d-flex flex-wrap">
 			<div class="card card-pokemon d-flex flex-column justify-content-between ml-2"> <!-- El justify-content-between es para que "el espacio en blanco" entre los elementos quede en medio de estos, así el texto quedará arriba y el boton abajo del todo -->
 				<div class="card-body">
-					<h5 class="card-title">Bulbasaur</h5>
+					<h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Su nombre proviene de las palabras en inglés bulb (bulbo) y saur, traducción al inglés de la palabra griega saûros (reptil o lagarto)." >Bulbasaur</h5>
 					<img class="card-img-top" src="images/001.png" alt="hotel img">	
 					<h6 class="card-subtitle text-muted">Kanto</h6>
 	    		<p class="card-text">A Bulbasaur es fácil verle echándose una siesta al sol. La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol.</p>
@@ -87,7 +87,7 @@
 			</div>
 			<div class="card card-pokemon d-flex flex-column justify-content-between ml-2"> <!-- El justify-content-between es para que "el espacio en blanco" entre los elementos quede en medio de estos, así el texto quedará arriba y el boton abajo del todo -->
 				<div class="card-body">
-					<h5 class="card-title">Ivysaur</h5>
+					<h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Su nombre proviene de las palabras en inglés ivy (hiedra) y saur, traducción al inglés de la palabra griega saûros (reptil o lagarto).">Ivysaur</h5>
 					<img class="card-img-top" src="images/002.png" alt="hotel img">
 					<h6 class="card-subtitle text-muted">Kanto</h6>
 	    		<p class="card-text">Este Pokémon lleva un bulbo en el lomo y, para poder con su peso, tiene unas patas y un tronco gruesos y fuertes. Si empieza a pasar más tiempo al sol, será porque el bulbo está a punto de hacerse una flor grande. </p>
@@ -98,7 +98,7 @@
 			</div>
 			<div class="card card-pokemon d-flex flex-column justify-content-between ml-2"> <!-- El justify-content-between es para que "el espacio en blanco" entre los elementos quede en medio de estos, así el texto quedará arriba y el boton abajo del todo -->
 				<div class="card-body">
-					<h5 class="card-title">Venusaur</h5>
+					<h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Su nombre es una combinación de las palabras Venus (una flor parecida a la planta que le crece desde su etapa como Bulbasaur) y saur, que viene del griego saurus, que quiere decir reptil o lagarto y es el equivalente a la terminación -saurio en los nombres de muchos dinosaurios. Así, Venusaur podría traducirse como Venusaurio.">Venusaur</h5>
 					<img class="card-img-top" src="images/003.png" alt="hotel img">
 					<h6 class="card-subtitle text-muted">Kanto</h6>
 	    		<p class="card-text">Venusaur tiene una flor enorme en el lomo que, según parece, adquiere unos colores muy vivos si está bien nutrido y le da mucho el sol. El aroma delicado de la flor tiene un efecto relajante en el ánimo de las personas.</p>
@@ -227,6 +227,11 @@
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/popper.js/popper-utils.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script>
+  	$(function(){
+  		$("[data-toggle='tooltip']").tooltip();
+  	});
+  </script> <!-- Activar los tooltips -->
   </body>
 </html>
