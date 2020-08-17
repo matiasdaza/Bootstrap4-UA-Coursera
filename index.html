@@ -82,7 +82,7 @@
 	    		<p class="card-text">A Bulbasaur es fácil verle echándose una siesta al sol. La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol.</p>
 	    	</div>
 	    	<div>
-	    		<button class="btn btn-primary btn-moreinfo">Más información</button>
+	    		<button class="btn btn-primary btn-moreinfo" data-toggle="popover" title="Más información" data-content="Próximamente encontrarás más datos sobre este Pokémon">Más información</button>
 	    	</div>	    	
 			</div>
 			<div class="card card-pokemon d-flex flex-column justify-content-between ml-2"> <!-- El justify-content-between es para que "el espacio en blanco" entre los elementos quede en medio de estos, así el texto quedará arriba y el boton abajo del todo -->
@@ -93,7 +93,7 @@
 	    		<p class="card-text">Este Pokémon lleva un bulbo en el lomo y, para poder con su peso, tiene unas patas y un tronco gruesos y fuertes. Si empieza a pasar más tiempo al sol, será porque el bulbo está a punto de hacerse una flor grande. </p>
 	    	</div>
 	    	<div>
-	    		<button class="btn btn-primary btn-moreinfo">Más información</button>
+	    		<button class="btn btn-primary btn-moreinfo" data-toggle="popover" title="Más información" data-content="Próximamente encontrarás más datos sobre este Pokémon">Más información</button>
 	    	</div>	    	
 			</div>
 			<div class="card card-pokemon d-flex flex-column justify-content-between ml-2"> <!-- El justify-content-between es para que "el espacio en blanco" entre los elementos quede en medio de estos, así el texto quedará arriba y el boton abajo del todo -->
@@ -104,7 +104,7 @@
 	    		<p class="card-text">Venusaur tiene una flor enorme en el lomo que, según parece, adquiere unos colores muy vivos si está bien nutrido y le da mucho el sol. El aroma delicado de la flor tiene un efecto relajante en el ánimo de las personas.</p>
 				</div>
 				<div>
-					<button class="btn btn-primary btn-moreinfo">Más información</button>
+					<button class="btn btn-primary btn-moreinfo" data-toggle="popover" title="Más información" data-content="Próximamente encontrarás más datos sobre este Pokémon">Más información</button>
 				</div>	    	
 			</div>
 			<div class="card card-pokemon d-flex flex-column justify-content-between ml-2"> <!-- El justify-content-between es para que "el espacio en blanco" entre los elementos quede en medio de estos, así el texto quedará arriba y el boton abajo del todo -->
@@ -115,7 +115,7 @@
 	    		<p class="card-text">La llama que tiene en la punta de la cola arde según sus sentimientos. Llamea levemente cuando está alegre y arde vigorosamente cuando está enfadado. </p>
 				</div>
 				<div>
-					<button class="btn btn-primary btn-moreinfo">Más información</button>
+					<button class="btn btn-primary btn-moreinfo" data-toggle="popover" title="Más información" data-content="Próximamente encontrarás más datos sobre este Pokémon">Más información</button>
 				</div>
 			</div>
 			<div class="card card-pokemon d-flex flex-column justify-content-between ml-2"> <!-- El justify-content-between es para que "el espacio en blanco" entre los elementos quede en medio de estos, así el texto quedará arriba y el boton abajo del todo -->
@@ -126,7 +126,7 @@
 	    		<p class="card-text">Charmeleon no tiene reparo en acabar con su rival usando las afiladas garras que tiene. Si su enemigo es fuerte, se vuelve agresivo, y la llama que tiene en el extremo de la cola empieza a arder con mayor intensidad tornándose azulada. </p>
 	    	</div>
 				<div>
-					<button class="btn btn-primary btn-moreinfo">Más información</button>
+					<button class="btn btn-primary btn-moreinfo" data-toggle="popover" title="Más información" data-content="Próximamente encontrarás más datos sobre este Pokémon">Más información</button>
 				</div>
 	    	
 			</div>
@@ -138,7 +138,7 @@
 	    		<p class="card-text">Charizard se dedica a volar por los cielos en busca de oponentes fuertes. Echa fuego por la boca y es capaz de derretir cualquier cosa. No obstante, si su rival es más débil que él, no usará este ataque.</p>
 				</div>
 				<div>
-					<button class="btn btn-primary btn-moreinfo">Más información</button>
+					<button class="btn btn-primary btn-moreinfo" data-toggle="popover" title="Más información" data-content="Próximamente encontrarás más datos sobre este Pokémon">Más información</button>
 				</div>
 			</div>
 			<div class="card card-pokemon d-flex flex-column justify-content-between ml-2"> <!-- El justify-content-between es para que "el espacio en blanco" entre los elementos quede en medio de estos, así el texto quedará arriba y el boton abajo del todo -->
@@ -149,7 +149,7 @@
 	    		<p class="card-text">El caparazón de Squirtle no le sirve de protección únicamente. Su forma redondeada y las hendiduras que tiene le ayudan a deslizarse en el agua y le permiten nadar a gran velocidad.</p>
 				</div>
 				<div>
-					<button class="btn btn-primary btn-moreinfo">Más información</button>
+					<button class="btn btn-primary btn-moreinfo" data-toggle="popover" title="Más información" data-content="Próximamente encontrarás más datos sobre este Pokémon">Más información</button>
 				</div>	    	
 			</div>
 
@@ -162,7 +162,7 @@
 	    		<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" >Contacto</button>
 				</div>
 				<div>
-					<button class="btn btn-primary btn-moreinfo">Más información</button>
+					<button class="btn btn-primary btn-moreinfo" data-toggle="popover" title="Más información" data-content="Próximamente encontrarás más datos sobre este Pokémon">Más información</button>
 				</div>	    	
 			</div>
 		</div>
@@ -226,11 +226,12 @@
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="node_modules/popper.js/popper-utils.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script>
   	$(function(){
   		$("[data-toggle='tooltip']").tooltip();
+  		$("[data-toggle='popover']").popover({trigger: "hover"});
   	});
   </script> <!-- Activar los tooltips -->
   </body>
