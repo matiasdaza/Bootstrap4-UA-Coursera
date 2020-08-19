@@ -1,12 +1,15 @@
 .jumbotron {
-	background-color: yellow;
-	color: black;
+	background-color: #212529;
+	color: white;
 	margin-top: 50px;
+	background-image: url("../images/header.png");
+	background-size: cover; 	
 }
 
 footer {
 	padding: 10px 10px 0 10px;
-	background-color: yellow;
+	background-color: #343a40;
+	color: white;
 	margin-bottom: 0px;
 	margin-top: 10px;
 }
